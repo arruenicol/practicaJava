@@ -1,5 +1,7 @@
 package genc182002;
 
+import genc182102.Funciones;
+
 import java.util.Scanner;
 
 public class Bucles {
@@ -79,5 +81,7 @@ public class Bucles {
 
         teclado.close();
 
+        Funciones miFuncion = new Funciones();
+        System.out.println(miFuncion);
     }
 }
